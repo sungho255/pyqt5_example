@@ -3,7 +3,8 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget
 
-
+#Qwidget = 부모 클래스
+# 부모 클래스를 상속받아서 MyApp이라는 클래스 생성
 class MyApp(QWidget):
 
     def __init__(self):
