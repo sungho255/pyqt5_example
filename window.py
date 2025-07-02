@@ -1,5 +1,4 @@
 ## Ex 3-1. 창 띄우기.
-
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget
 
@@ -12,6 +11,7 @@ class MyApp(QWidget):
         self.initUI()
 
     def initUI(self):
+        # btn = QP
         self.setWindowTitle('My First Application')
         self.move(300, 300)
         self.resize(400, 300)
